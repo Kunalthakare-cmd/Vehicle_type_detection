@@ -1,0 +1,9 @@
+streamlit
+opencv-python-headless
+tensorflow
+tensorflow_hub
+sounddevice
+noisereduce
+numpy
+pandas
+scikit-learn
