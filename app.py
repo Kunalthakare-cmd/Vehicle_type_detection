@@ -72,7 +72,8 @@ st.write("Real-time vehicle detection with counting")
 
 # Sidebar - essential settings only
 st.sidebar.header("Settings")
-model_path = st.sidebar.text_input("Model Path", value="D:/Kunal Files/Sem 5/AI/project_new/best.pt")
+# model_path = st.sidebar.text_input("Model Path", value="D:/Kunal Files/Sem 5/AI/project_new/best.pt")
+model_path = "./models/best.pt"
 confidence_threshold = st.sidebar.slider("Confidence", 0.1, 1.0, 0.5, 0.1)
 detection_line_y = st.sidebar.slider("Detection Line", 0.3, 0.7, 0.5, 0.1)
 
