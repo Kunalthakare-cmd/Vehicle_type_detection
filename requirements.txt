@@ -1,9 +1,10 @@
 streamlit
+ultralytics
 opencv-python-headless
+numpy
 tensorflow
-tensorflow_hub
+tensorflow-hub
+scikit-learn
 sounddevice
 noisereduce
-numpy
 pandas
-scikit-learn
